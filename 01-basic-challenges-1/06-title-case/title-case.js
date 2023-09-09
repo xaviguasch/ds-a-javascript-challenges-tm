@@ -1,3 +1,9 @@
-function titleCase() {}
+function titleCase(orStr) {
+  const splittedStr = orStr.split(' ')
 
-module.exports = titleCase;
+  return splittedStr
+    .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ')
+}
+
+module.exports = titleCase
