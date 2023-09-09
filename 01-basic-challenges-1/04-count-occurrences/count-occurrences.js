@@ -1,3 +1,15 @@
-function countOccurrences() {}
+function countOccurrences(string, char) {
+  const wordArr = string.split('')
 
-module.exports = countOccurrences;
+  let count = 0
+
+  wordArr.forEach((w) => {
+    if (w === char) {
+      count++
+    }
+  })
+
+  return count
+}
+
+module.exports = countOccurrences
