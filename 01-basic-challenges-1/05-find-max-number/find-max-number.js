@@ -1,3 +1,13 @@
-function findMaxNumber() {}
+function findMaxNumber(numArr) {
+  let maxNum = numArr[0]
 
-module.exports = findMaxNumber;
+  numArr.forEach((num) => {
+    if (num > maxNum) {
+      maxNum = num
+    }
+  })
+
+  return maxNum
+}
+
+module.exports = findMaxNumber
