@@ -7,12 +7,10 @@ function validatePassword(password) {
   const nums = []
   const letters = []
 
-  const separateNumsAndLetters = splitPass.forEach((char) => {
+  splitPass.forEach((char) => {
     const charToNum = Number(char)
 
     const charStr = charToNum.toString()
-
-    console.log(char)
 
     if (char === charStr) {
       nums.push(char)
