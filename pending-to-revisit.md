@@ -4,3 +4,4 @@
 29-find-missing-letter-refactor DID IT RIGHT, but didn't use methods properly. Try again
 31-fibonacci-sequence FAILED AT FIRST TRY, now I understand better how it works
 36-flatten-array- FAILED AT FIRST TRY, TRY AGAIN!!
+37-permutations- FAILED MISERABLY!!!! really need to go over at it again
