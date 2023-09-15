@@ -5,3 +5,4 @@
 31-fibonacci-sequence FAILED AT FIRST TRY, now I understand better how it works
 36-flatten-array- FAILED AT FIRST TRY, TRY AGAIN!!
 37-permutations- FAILED MISERABLY!!!! really need to go over at it again
+38-max-subarray-quadratic SOLVED IT BUT WITH ISSUES, needs revision
